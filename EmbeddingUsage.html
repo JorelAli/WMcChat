@@ -61,6 +61,16 @@ pluginspage="http://java.com/download/"&gt;
                         <li>Servers</li>
                             <ul>
                                 <li>WMcChat allows you to add a list of servers to the application, so they can only join that list. To adjust this value, you need to enter the server IP, followed by a (:) and then the port (default it to 25565 if you don't know your port). Then, you can add another server by separating it with a comma (,). Please don't use spaces!</li>
+                                <pre><code></code>&lt;param name="servers" value="server:port,server:port"&gt;</pre>
+                                <li>Lets say for example, we have a server with the IP of '127.0.0.0' and the port is '25565', you would then adjust the server param to:</li>
+                                <pre><code></code>&lt;param name="servers" value="127.0.0.0:25565"&gt;</pre>
+                                <li>Of course, you don't have to put a value - it's entirely optional. If you want your users to be able to enter any IP and port, use this code:</li>
+                                <pre><code></code>&lt;param name="servers" value=""&gt;</pre>
+                            </ul>
+                        <li>StoreURL</li>
+                            <ul>
+                                <li>The StoreURL lets me keep track of there my application is going. All it does is store the URL of the website which it is placed on and sends that data to me (no, not your Minecraft information). This is optional and to turn it off, use this code:</li>
+                                <pre><code>&lt;param name="storeurl" value="true"&gt;</code></pre>
                             </ul>
                         </ul>
 
