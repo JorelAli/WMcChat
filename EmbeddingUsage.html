@@ -52,9 +52,18 @@ pluginspage="http://java.com/download/"&gt;
 &lt;param name="servers" value="server:port,server:port"&gt;
 &lt;param name="storeurl" value="true"&gt; </code></pre>
                         <p>Looks simple? Actually, there's a bit more work you need before it can work to your full taste. To use this, you need to adjust the param values:</p>
-                        <h4>Permissions</h4><br/>This line of code is required in order for it to work - nothing needs to be adjusted here
-                        <pre><code>&lt;param name="permissions" value="all-permissions"&gt; </code></pre>
-                        
+                        <ul>
+                        <li>Permissions</li>
+                            <ul>
+                                <li>This line of code is required in order for it to work - nothing needs to be adjusted here</li>
+                                <pre><code>&lt;param name="permissions" value="all-permissions"&gt; </code></pre>
+                            </ul>
+                        <li>Servers</li>
+                            <ul>
+                                <li>WMcChat allows you to add a list of servers to the application, so they can only join that list. To adjust this value, you need to enter the server IP, followed by a (:) and then the port (default it to 25565 if you don't know your port). Then, you can add another server by separating it with a comma (,). Please don't use spaces!</li>
+                            </ul>
+                        </ul>
+
                     </article>
                 </div>
             </div>
