@@ -44,14 +44,13 @@
                         <p>To embed this into your website, you will need this 'template' code below:</p>
                         <pre><code>&lt;embed id="WMcChat" 
 type="application/x-java-applet;version=1.6" 
-width="415" 
+width="420" 
 height="600" 
-archive="https://dl.dropboxusercontent.com/u/77591131/WMcChat/WMcChat.jar,https://dl.dropboxusercontent.com/u/77591131/WMcChat/MCLIB.jar,https://dl.dropboxusercontent.com/u/77591131/WMcChat/SQL.jar" 
-code="com.droppages.Skepter.Start" 
+archive="skepter.github.io/WMcChat/files/WMcChat.jar,skepter.github.io/WMcChat/files/mcprotocollib-WMcChat.jar" 
+code="io.github.Skepter.Start" 
 pluginspage="http://java.com/download/"&gt; 
 &lt;param name="permissions" value="all-permissions"&gt; 
-&lt;param name="servers" value="server:port,server:port"&gt;
-&lt;param name="storeurl" value="true"&gt; </code></pre>
+&lt;param name="servers" value="server:port,server:port"&gt; </code></pre>
                         <p>Looks simple? Actually, there's a bit more work you need before it can work to your full taste. To use this, you need to adjust the param values:</p>
                         <ul>
                         <li>Permissions</li>
@@ -68,15 +67,8 @@ pluginspage="http://java.com/download/"&gt;
                                 <li>Of course, you don't have to put a value - it's entirely optional. If you want your users to be able to enter any IP and port, use this code:</li>
                                 <pre><code></code>&lt;param name="servers" value=""&gt;</pre>
                             </ul>
-                        <li>StoreURL</li>
-                            <ul>
-                                <li>The StoreURL lets me keep track of where my application is going. All it does is store the URL of the website which it is placed on and sends that data to me (no, not your Minecraft information).</li>
-                                <li>Please note that if the StoreURL is false or not turned on, it will say '[Player] connected with WMcChat' when they join the server. (I'm sorry, but I would let you have to pay to get that removed, but I don't have paypal. It's the least you can do, isn't it? Chances are I might not even take a look at your URL. Maybe I might check it out and play on your server. Maybe I might recommend it to other players!</li>
-                                <li>This is entirely optional and to turn it off, use this code:</li>
-                                <pre><code>&lt;param name="storeurl" value="false"&gt;</code></pre>
-                            </ul>
                         </ul>
-                    <p>That is pretty much it, all you need now is a space which is 415x600 and you are set to go!</p>
+                    <p>That is pretty much it, all you need now is a space which is 420x600 and you are set to go!</p>
                     </article>
                 </div>
             </div>
