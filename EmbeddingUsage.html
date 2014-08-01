@@ -42,15 +42,10 @@
                             class="octicon octicon-link"></span></a>Embedding manual</h3>
                         <p>Embedding help goes here - code goes here - param info goes here</p>
                         <p>To embed this into your website, you will need this 'template' code below:</p>
-                        <pre><code>&lt;embed id="WMcChat" 
-type="application/x-java-applet;version=1.6" 
-width="420" 
-height="600" 
-archive="http://skepter.github.io/WMcChat/files/WMcChat.jar,http://skepter.github.io/WMcChat/files/mcprotocollib-WMcChat.jar" 
-code="io.github.Skepter.Start" 
-pluginspage="http://java.com/download/"&gt; 
-&lt;param name="permissions" value="all-permissions"&gt; 
-&lt;param name="servers" value="server:port,server:port"&gt; </code></pre>
+                        <pre><code><object name="WMcChat" type="application/x-java-applet;version=1.6" width="420" height="600" archive="http://skepter.github.io/WMcChat/files/WMcChat.jar,http://skepter.github.io/WMcChat/files/mcprotocollib-WMcChat.jar" code="io.github.Skepter.Start"> 
+  <param name="permissions" value="all-permissions"> 
+  <param name="servers" value="bt.broverse.net:25565"> 
+</object></code></pre>
                         <p>Looks simple? Actually, there's a bit more work you need before it can work to your full taste. To use this, you need to adjust the param values:</p>
                         <ul>
                         <li>Permissions</li>
